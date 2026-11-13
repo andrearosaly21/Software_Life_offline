@@ -191,7 +191,7 @@ Aplicación de escritorio en Python para ambientes sin conexión
         "menu_titulo": "SHIPIBO-KONIBO YACANAE",
         "dolencias": {
             "tos": {
-                "nombre": "Ócon",
+                "nombre": "Óco",
                 "descripcion_general": "Bari non jena yora onta, yora akáribiakin.",
                 "tratamiento_regional": "Bari ócon onanbires jawëra akin (Piper aduncum).",
                 "ficha_cientifica": {
@@ -206,8 +206,8 @@ Aplicación de escritorio en Python para ambientes sin conexión
                 "descripcion_general": "Jena ikáki yora onta jeneakin.",
                 "tratamiento_regional": "Kaxikin / Hampi iwatcha.",
                 "ficha_cientifica": {
-                    "nombre_cientifico": "Uso tradicional amazónico",
-                    "familia_botanica": "N/A",
+                    "nombre_científico": "Crescentia cujete",
+                    "familia_botanica": "Bignoniaceae",
                     "parte_utilizada": "N/A",
                     "region": "Amazonía"
                 }
