@@ -336,15 +336,12 @@ RAPHI_SALUD = {
                 "quechua": "Qasa unquy qallariyninmi, qasa wayramanta paqariq.",
                 "shipibo": "Bari non jena yora onta, yora akáribiakin."
             },
-            "Formas_de_Tratamiento": [
-                {
-                    "region": "Andes",
-                    "planta": "Muña (Andean mint)",
-                    "uso": "Una buena infusión o mate calientito de hojas para calmar la garganta y aflojar el pecho.",
-                    "ficha_científica": {
-                        "nombre_cientifico": "Minthostachys mollis",
-                        "familia_botánica": "Lamiaceae",
-                        "parte_utilizada": "Hojas/Leaves/Raphi/Péi"
+            "Formas_de_Tratamiento": {
+                    "English":{"Region": "The Andes", "Plant": "Muña ( Adean mint)", "Using": "A warm Muña's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
+                    "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una buena infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
+                     "Qichwa":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
+                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", 
+/Leaves/Raphi/Péi"
                     }
                 },
                 {
