@@ -1,7 +1,7 @@
 # Software_Life_offline
 Aplicación de escritorio en Python para ambientes sin conexión
 **********************************************************************************************************************************************************************************************************************
-"espanol": {
+``` "espanol": {
         "menu_título": "SISTEMA DE SALUD INTERCULTURAL",
         "dolencias": {
             "tos": {
@@ -248,3 +248,220 @@ Aplicación de escritorio en Python para ambientes sin conexión
         }
     }
 }
+***********************************************************************************************************************************2 skecht*********************************************************************
+
+SOFTWARE_SALUD = {
+    "dolencias": {
+        "gastritis": {
+            "nombres_idiomas": {
+                "espanol": "Gastritis",
+                "ingles": "Gastritis",
+                "quechua": "Wiksa nanay",
+                "shipibo": "Bari xara nanay"
+            },
+            "descripcion": {
+                "espanol": "Inflamación de la mucosa del estómago, a menudo por acidez o estrés.",
+                "ingles": "Inflammation of the stomach lining, often caused by acidity or stress.",
+                "quechua": "Wiksapi q'aphay o ruphay, mikhuna mana allin chaskisqa kaptin.",
+                "shipibo": "Non xara onta yakata iquike."
+            },
+            "tratamientos_i": [
+
+                {
+                    # CASO 2: Curación hecha en la amazonía
+                    "region": "Amazonía",
+                    "planta": "Sangre de grado (Dragon's blood)",
+                    "uso": "Uso del látex o resina rojiza para cicatrizar úlceras estomacales.",
+                    "ficha_cientifica": {
+                        "nombre_cientifico": "Croton lechleri",
+                        "familia_botanica": "Euphorbiaceae",
+                        "parte_utilizada": "Reddish resin / Látex"
+                    }
+                }
+            ]
+        },
+        "tos": {
+            "nombres_idiomas": {
+                "espanol": "Tos",
+                "ingles": "Cough",
+                "quechua": "Uhu",
+                "shipibo": "Ócon"
+            },
+            "descripcion": {
+                "espanol": "Irritación o infección de las vías respiratorias.",
+                "ingles": "Respiratory tract irritation or infection.",
+                "quechua": "Qasa unquy qallariyninmi, qasa wayramanta paqariq.",
+                "shipibo": "Bari non jena yora onta, yora akáribiakin."
+            },
+            "tratamientos_interculturales": [
+                {
+                    # CASO 3: Exclusivo de los Andes
+                    "region": "Andes",
+                    "planta": "Muña (Andean mint)",
+                    "uso": "Infusión caliente de hojas para calmar la vía respiratoria y expulsar flemas.",
+                    "ficha_cientifica": {
+                        "nombre_cientifico": "Minthostachys mollis",
+                        "familia_botanica": "Lamiaceae",
+                        "parte_utilizada": "Leaves / Hojas"
+                    }
+                },
+                {
+                    # CASO 4: Exclusivo de la Amazonía
+                    "region": "Amazonía",
+                    "planta": "Matico (Spiked pepper)",
+                    "uso": "Uso tradicional de las hojas para desinflamar las vías respiratorias y calmar la tos.",
+                    "ficha_cientifica": {
+                        "nombre_cientifico": "Piper aduncum",
+                        "familia_botanica": "Piperaceae",
+                        "parte_utilizada": "Leaves / Hojas"
+                    }
+                }
+            ]
+        }
+    }
+}
+**************************************************************************3 SCKETCH*******************************
+RAPHI_SALUD = {
+    "dolencias": {
+        "tos": {
+            "nombres_idiomas": {
+                "español": "Tos",
+                "ingles": "Cough",
+                "quechua": "Uhu",
+                "shipibo": "Ócon"
+            },
+            "descripcion": {
+                "español": "Picazón o infección molestosa en la garganta y las vías respiratorias.",
+                "ingles": "Irritation or infection in the throat and airways.",
+                "quechua": "Qasa unquy qallariyninmi, qasa wayramanta paqariq.",
+                "shipibo": "Bari non jena yora onta, yora akáribiakin."
+            },
+            "Formas_de_Tratamiento": [
+                {
+                    "region": "Andes",
+                    "planta": "Muña (Andean mint)",
+                    "uso": "Una buena infusión o mate calientito de hojas para calmar la garganta y aflojar el pecho.",
+                    "ficha_científica": {
+                        "nombre_cientifico": "Minthostachys mollis",
+                        "familia_botánica": "Lamiaceae",
+                        "parte_utilizada": "Hojas/Leaves/Raphi/Péi"
+                    }
+                },
+                {
+                    "region": "Amazonía",
+                    "planta": "Matico (Spiked pepper)",
+                    "uso": "El uso tradicional de las hojas para bajar la inflamación de las vías respiratorias.",
+                    "ficha_cientifica": {
+                        "nombre_cientifíco": "Piper aduncum",
+                        "familia_botanica": "Piperaceae",
+                        "parte_utilizada": "Hojas/Leaves/Raphi/Péi"
+                    }
+                }
+            ]
+        },
+        "gastritis": {
+            "nombres_idiomas": {
+                "espanol": "Gastritis",
+                "ingles": "Gastritis",
+                "quechua": "Wiksa nanay",
+                "shipibo": "Póco cheshati"
+            },
+            "descripción": {
+                "espanol": "Ardor o dolor en la boca del estómago, casi siempre por acidez o momentos de estrés.",
+                "ingles": "Burning or pain in the stomach, usually caused by acidity or stress.",
+                "quechua": "Wiksapi q'aray o ruphay, mikhuna mana allin chaskisqa kaqtin.",
+                "shipibo": "Non xara onta yakata iquike."
+            },
+            "Formas_de_tratamiento": [
+                {
+                    "region": "General (Costa, Andes y Amazonía)",
+                    "planta": "Llantén",
+                    "uso": "Agüita de hojas con ese juguito viscoso (mucílago) que protege y calma las paredes del estómago.",
+                    "ficha_cientifica": {
+                        "nombre_cientifico": "Plantago major",
+                        "familia_botanica": "Plantaginaceae",
+                        "parte_utilizada": "Hojas / Leaves"
+                    }
+                },
+                {
+                    "region": "Amazonía",
+                    "planta": "Sangre de grado (Dragon's blood)",
+                    "uso": "Aplicar unas gotitas de esa resina rojiza para ayudar a cicatrizar y aliviar el estómago.",
+                    "ficha_cientifica": {
+                        "nombre_cientifico": "Croton lechleri",
+                        "familia_botanica": "Euphorbiaceae",
+                        "parte_utilizada": "Látex / Red resin"
+                    }
+                }
+            ]
+        }
+    }
+}
+
+
+def iniciar_sistema():
+    print("Hola, bienvenido al Sistema Intercultural de Salud")
+    
+    # Bucle para que el programa corra libremente sin cerrarse
+    while True:
+        print("\n¿En qué idioma prefieres que conversemos hoy?")
+        print(" [1] Español")
+        print(" [2] Inglés (English)")
+        print(" [3] Quechua (Runasimi)")
+        print(" [4] Shipibo (Shipibo-Konibä)")
+        
+        op_idioma = input("\nElige un número (1-4): ").strip()
+        mapa_idiomas = {"1": "espanol", "2": "ingles", "3": "quechua", "4": "shipibo"}
+        
+        if op_idioma not in mapa_idiomas:
+            print("\n, información no válida")
+            continue
+            
+        idioma_elegido = mapa_idiomas[op_idioma]
+        
+        # Mostrar dolencias disponibles
+        print("\nEstas son las dolencias que tenemos registradas:")
+        claves_dolencias = list(SOFTWARE_SALUD["dolencias"].keys())
+        
+        for i, clave in enumerate(claves_dolencias, 1):
+            nombre_traducido = SOFTWARE_SALUD["dolencias"][clave]["nombres_idiomas"][idioma_elegido]
+            print(f" • [{i}] {nombre_traducido} (escribe: {clave})")
+            
+        eleccion = input("\n¿Qué malestar te gustaría consultar? (escribe la palabra clave, ej: tos): ").strip().lower()
+        
+        if eleccion in SOFTWARE_SALUD["dolencias"]:
+            info_dolencia = SOFTWARE_SALUD["dolencias"][eleccion]
+            nombre_mostrado = info_dolencia["nombres_idiomas"][idioma_elegido]
+            desc_mostrada = info_dolencia["descripcion"][idioma_elegido]
+            
+            print("\n" + "~"*55)
+            print(f"FICHA MÉDICA: {nombre_mostrado.upper()} ")
+            print("~"*55)
+            print(f"Qué se siente: {desc_mostrada}\n")
+            print("Así lo tratamos conectando los Andes y la Amazonía:")
+            
+            for t in info_dolencia["tratamientos_interculturales"]:
+                print(f"\n Zona: {t['region']}")
+                print(f"Remedio: {t['planta']}")
+                print(f"Cómo se usa: {t['uso']}")
+                print(f"Ficha técnica:")
+                print(f"Nombre en latín: {t['ficha_cientifica']['nombre_cientifico']}")
+                print(f"Familia: {t['ficha_cientifica']['familia_botanica']}")
+                print(f"Parte de la planta: {t['ficha_cientifica']['parte_utilizada']}")
+            print("~"*55)
+        else:
+            print("\n, no existe esa información en la lista.")
+        
+        # Preguntar si quiere seguir explorando
+        print("\n¿Qué quieres hacer ahora?")
+        print(" [1] Buscar otra cosa o cambiar de idioma")
+        print(" [2] Salir del programa")
+        
+        continuar = input("Elige (1 o 2): ").strip()
+        if continuar == "2":
+            print("\n Espero hayas tenido una gran experiencia")
+            break
+
+
+if __name__ == "__main__":
+    iniciar_sistema() ```
