@@ -322,55 +322,52 @@ SOFTWARE_SALUD = {
 }
 **************************************************************************3 SCKETCH*******************************
 RAPHI_SALUD = {
-    "dolencias": {
-        "tos": {
-            "nombres_idiomas": {
-                "español": "Tos",
-                "ingles": "Cough",
-                "quechua": "Uhu",
-                "shipibo": "Ócon"
+    "Dolencias": {
+        "Tos": {
+            "Nombres_idiomas": {
+                "Español": "Tos",
+                "Inglés": "Cough",
+                "Quechua": "Uhu",
+                "Shipibo-konibo": "Ocon"
             },
-            "descripcion": {
-                "español": "Picazón o infección molestosa en la garganta y las vías respiratorias.",
-                "ingles": "Irritation or infection in the throat and airways.",
-                "quechua": "Qasa unquy qallariyninmi, qasa wayramanta paqariq.",
-                "shipibo": "Bari non jena yora onta, yora akáribiakin."
+            "Descripción": {
+                "Español": "Picazón o infección molestosa en la garganta y las vías respiratorias.",
+                "Ingles": "Irritation or infection in the throat and airways.",
+                "Quechua": "Qasa unquy qallariyninmi, qasa wayramanta paqariq.",
+                "Shipibo-konibo": "Bari non jena yora onta, yora akaribiakin."
             },
             "Formas_de_Tratamiento": {
-                    "English":{"Region": "The Andes", "Plant": "Muña ( Adean mint)", "Using": "A warm Muña's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
+                    "Andes": {
+                     "English":{"Region": "The Andes", "Plant": "Muña( Adean mint)", "Using": "A warm Muña's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
                     "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
                      "Qichwa":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
-                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", "Jawekeska akin akati": "Matico pei jene", "kirika jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Rao jaskara akati": "Pei"},  
-/Leaves/Raphi/Péi"
-                    }
-                },
-                {
-                    "region": "Amazonía",
-                    "planta": "Matico (Spiked pepper)",
-                    "uso": "El uso tradicional de las hojas para bajar la inflamación de las vías respiratorias.",
-                    "ficha_cientifica": {
-                        "nombre_cientifíco": "Piper aduncum",
-                        "familia_botanica": "Piperaceae",
-                        "parte_utilizada": "Hojas/Leaves/Raphi/Péi"
-                    }
-                }
-            ]
-        },
-        "gastritis": {
-            "nombres_idiomas": {
-                "espanol": "Gastritis",
-                "ingles": "Gastritis",
-                "quechua": "Wiksa nanay",
-                "shipibo": "Póco cheshati"
+                     "Shipibo-konibo":{"Mai": "Andes mai", "Rao": "Muña", Jawekeska akin akati": "Muña rao jene shana", "Kirika jane": "Minthostachys mollis", "Rao kaibo": "Laminiaceae", "Rao jaskara akati": "Pei"}, 
+                     "Amazonía": {
+                     "English":{"Region": "The Amazon", "Plant": "Matico", "Using": "A warm Matico's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Piper aduncum", "Botanical_family": "Piperaceae", "Part_used": "Leaves"}, 
+                    "Español":{"Region": "Amazonia", "Planta": "Matico", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Piper aduncum", "Familia_botánica": "Piperaceae", "Parte_utilizada": "Hojas"},
+                     "Qichwa":{"Mama llaqtapa kaqninkuna": "Sachamama", "Qura": "Matiku", "Imayna apaykachasqayki": "Q'uñi Matiku raphi matita upyay", "Yachay sutin": "Piper aduncum", "Qura ayllun": "Piperaceae",  "Apaykachana rakin": "Raphi"},
+                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", "Jawekeska akin akati": "Matico pei jene", "Kirika jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Rao jaskara akati": "Pei"},  
+                               }
+                        }
+                    },    
+        "Gastritis": {
+            "Nombres_idiomas": {
+                "Español": "Gastritis",
+                "Inglés": "Gastritis",
+                "Quechua": "Wiksa nanay",
+                "Shipibo-konibo": "Poco cheshati"
             },
-            "descripción": {
-                "espanol": "Ardor o dolor en la boca del estómago, casi siempre por acidez o momentos de estrés.",
-                "ingles": "Burning or pain in the stomach, usually caused by acidity or stress.",
-                "quechua": "Wiksapi q'aray o ruphay, mikhuna mana allin chaskisqa kaqtin.",
-                "shipibo": "Non xara onta yakata iquike."
+            "Descripción": {
+                "Español": "Ardor o dolor en la boca del estómago, casi siempre por acidez, momentos de estrés o por no comer en en tus horarios.",
+                "Inglés": "Burning or pain in the stomach, usually caused by acidity, stress and due to lack of adecuate alimentary schedule.",
+                "Quechua": "Wiksapi q'aray o ruphay, mikhuna mana allin chaskisqa kaqtin.",
+                "Shipibo-konibo": "Non xara onta yakata iquike."
             },
-            "Formas_de_tratamiento": [
-                {
+            "Formas_de_tratamiento": {
+                              "English":{"Region": "The Andes", "Plant": "Sangre de grado", "Using": "A Greater plantain's leaves infusion to softens the stomach's inner walls, reduce acidity and regenerates damaged tissues", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
+                    "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
+                     "Qichwa":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
+                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", "Jawekeska akin akati": "Matico pei jene", "kirika jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Rao jaskara akati": "Pei"}, 
                     "region": "General (Costa, Andes y Amazonía)",
                     "planta": "Llantén",
                     "uso": "Agüita de hojas con ese juguito viscoso (mucílago) que protege y calma las paredes del estómago.",
