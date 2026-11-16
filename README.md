@@ -9,7 +9,7 @@ Aplicación de escritorio en Python para ambientes sin conexión
                 "descripcion_general": "Irritación o infección de las vías respiratorias.",
                 "tratamiento_regional": "Mate o infusión de plantas medicinales tradicionales según la región.",
                 "ficha_cientifica": {
-                    "nombre_cientifico": "Muña (Minthostachys mollis) / Matico (Piper aduncum)",
+                    "nombre_cientifico": "Muña (Minthostachys mollis) / Matico (<i>Piper aduncum)",
                     "familia_botanica": "Lamiaceae / Piperaceae",
                     "parte_utilizada": "Hojas",
                     "region": "Andes y Amazonía"
@@ -338,9 +338,9 @@ RAPHI_SALUD = {
             },
             "Formas_de_Tratamiento": {
                     "English":{"Region": "The Andes", "Plant": "Muña ( Adean mint)", "Using": "A warm Muña's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
-                    "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una buena infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
+                    "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
                      "Qichwa":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
-                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", 
+                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", "Jawekeska akin akati": "Matico pei jene", "kirika jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Rao jaskara akati": "Pei"},  
 /Leaves/Raphi/Péi"
                     }
                 },
