@@ -340,7 +340,7 @@ RAPHI_SALUD = {
                     "Andes": {
                      "English":{"Region": "The Andes", "Plant": "Muña( Adean mint)", "Using": "A warm Muña's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
                     "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
-                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Antikuna", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
                      "Shipibo-konibo":{"Mai": "Andes mai", "Rao": "Muña", Jawekeska akin akati": "Muña rao jene shana", "Kirika jane": "Minthostachys mollis", "Rao kaibo": "Laminiaceae", "Rao jaskara akati": "Pei"}, 
                      "Amazonía": {
                      "English":{"Region": "The Amazon", "Plant": "Matico", "Using": "A warm Matico's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Piper aduncum", "Botanical_family": "Piperaceae", "Part_used": "Leaves"}, 
@@ -364,12 +364,12 @@ RAPHI_SALUD = {
                 "Shipibo-konibo": "Non xara onta yakata iquike."
             },
             "Formas_de_tratamiento": {
-                       "Andes":{
+                       "Andes": {
 "English":{"Region": "The Andes", "Plant": "Llantén", "Using": "Llantén leaves infusion to softens the stomach's inner walls, reduce acidity and regenerates damaged tissues.", "Scientific_name": "Plantago major", "Botanical_family": "Plantaginaceae", "Part_used": "Leaves"}, 
                     "Español":{"Region": "Andes", "Planta": "Llantén", "Uso": "Una infusión o mate de hojas suavizar las peredes del stomágo, reducir la acidez y regenerar los tejidos dañados.", "Nombre_científico": "Plantago major", "Familia_botánica": "Plantaginaceae", "Parte_utilizada": "Hojas"},
-                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Llantin", "Imayna apaykachasqayki": "Llantin raphi matita upyay", "Yachay sutin": "Plantago major", "Qura ayllun": "Plantaginaceae",  "Apaykachana rakin": "Raphi"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Antikuna", "Qura": "Llantin", "Imayna apaykachasqayki": "Llantin raphi matita upyay", "Yachay sutin": "Plantago major", "Qura ayllun": "Plantaginaceae",  "Apaykachana rakin": "Raphi"},
                      "Shipibo-Konibo":{"Mai": "Andes mai", "Rao": "Yantín", "Jawekeska akin akati": "Yantín pei jene", "Onanti jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Akinanti tsekatii": "Pei"},
-                      "Amazonía":{ 
+                      "Amazonía": { 
 "English":{"Region": "The Amazon", "Plant": "Sangre de grado", "Using": " Sangre de grado(Irare) latex or reddish resin diluted in a glass lukewarm water, herbal ifusion or natural juice.", "Scientific_name": "Croton lechleri", "Botanical_family": "Euphorbiaceae", "Part_used": "Latex or reddish resin"}, 
                     "Español":{"Region": "Amazonía", "Planta": "Sangre de grado", "Uso": "Látex o resina rojiza de sangre de grado diluido en un vaso de agua tibia, infusión o jugo natual.", "Nombre_científico": "Croton lechleri", "Familia_botánica": "Euphorbiaceae", "Parte_utilizada": "Látex o resina"},
                      "Runasimi":{"Mama llaqtapa kaqninkuna": "Sachamama", "Qura": "Irare", "Imayna apaykachasqayki": "Irare puka llaqsan ama nishu q'uñi yakupi, matipi, utaq ruru yakupi shulluchisqata upyay", "Yachay sutin": "Croton lechleri", "Qura ayllun": "Euphorbiaceae",  "Apaykachana rakin": "Puka llaqsa"},
@@ -382,7 +382,23 @@ RAPHI_SALUD = {
                 "Español": "Fiebre",
                 "Inglés": "Fever",
                 "Quechua": "Ruphay unquy",
-                "Shipibo-konibo": ""
+                "Shipibo-konibo": "Yona"},
+           "Descripción": {
+                "Español": "Aumento temporal de la temperatura del cuerpo.",
+                "Inglés": "A temporary increase in body temperature.",
+                "Quechua": "Runaq ukhun q'uñiynin huk ratulla wichariynin.",
+                "Shipibo-konibo": "Yora shana ikai westiora netenbi."},
+            "Formas_de_tratamiento": {
+                       "Andes": {
+"English":{"Region": "The Andes", "Plant": "Cantuta", "Using": "Boil the branches and flowers of cantuta together with qhaya qhaya and santa maría plant, and bathe with the infusion right before goint to sleep.", "Scientific_name": "Cantua buxifolia", "Botanical_family": "Polemoniaceae", "Part_used": "branches and flowers"}, 
+                    "Español":{"Region": "Andes", "Planta": "Cantuta", "Uso": "Las ramas y flores de la cantuta juntamnenete con qhaya qhaya y santa maria hacer hervir y con eso bañarse al momento antes de dormir.", "Nombre_científico": "Cantua buxifolia", "Familia_botánica": "Polemoniaceae", "Parte_utilizada": "Ramas y flores"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Antikuna", "Qura": "Qantu", "Imayna apaykachasqayki": "Qantu k'allmakunata t'ikankunatawan, qhaya qhayawan santa mariawan kuska t'impuchispa, manaraq puñuchkaspa chaylla armakuna.", "Yachay sutin": "Cantua buxifolia", "Qura ayllun": "Polemoniaceae",  "Apaykachana rakin": "K'allma t'ikantawan"},
+                     "Shipibo-Konibo":{"Mai": "Andes mai", "Rao": "Cantuta", "Jawekeska akin akati": "Cantuta poyanbo, joaboya, qhaya qhaya, santa mariaribi betan jene koyotankin, oxati yatanbi nashiti", "Onanti jane": "Cantua buxifolia", "Rao kaibo": "Polemoniaceae", "Akinanti tsekatii": "Poyynbo betan joabo"},
+                      "Amazonía": { 
+"English":{"Region": "The Amazon", "Plant": "Huingo", "Using": "Drink the decoction made from the fruit pulp.", "Scientific_name": "Crescentia cujete", "Botanical_family": "Bignoniaceae", "Part_used": "Fruit pulp"}, 
+                    "Español":{"Region": "Amazonía", "Planta": "Huingo", "Uso": "Beber el cocimiento de la pulpa del fruto.", "Nombre_científico": "Crescentia cujete", "Familia_botánica": "Bignoniaceae", "Parte_utilizada": "Pulpa del fruto"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Sachamama", "Qura": "Huingo", "Imayna apaykachasqayki": "Ruruq aychata t'impusqa yakunta upyay", "Yachay sutin": "Crescentia cujete", "Qura ayllun": "Bignoniaceae",  "Apaykachana rakin": "Puka llaqsa"},
+                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Huingo", "Jawekeska akin akati": "Bimi nami jene koyoa xeaai.", "Onanti jane": "Crescentia cujete", "Rao kaibo": "Bignoniaceae", "Akinanti tsekatii": "Bimi nami"
                        
 
  "region": "General (Costa, Andes y Amazonía)",
