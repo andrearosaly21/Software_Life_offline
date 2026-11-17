@@ -340,12 +340,12 @@ RAPHI_SALUD = {
                     "Andes": {
                      "English":{"Region": "The Andes", "Plant": "Muña( Adean mint)", "Using": "A warm Muña's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
                     "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
-                     "Qichwa":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
                      "Shipibo-konibo":{"Mai": "Andes mai", "Rao": "Muña", Jawekeska akin akati": "Muña rao jene shana", "Kirika jane": "Minthostachys mollis", "Rao kaibo": "Laminiaceae", "Rao jaskara akati": "Pei"}, 
                      "Amazonía": {
                      "English":{"Region": "The Amazon", "Plant": "Matico", "Using": "A warm Matico's leaves infusion to expectorate and reduce throat inflamation", "Scientific_name": "Piper aduncum", "Botanical_family": "Piperaceae", "Part_used": "Leaves"}, 
                     "Español":{"Region": "Amazonia", "Planta": "Matico", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Piper aduncum", "Familia_botánica": "Piperaceae", "Parte_utilizada": "Hojas"},
-                     "Qichwa":{"Mama llaqtapa kaqninkuna": "Sachamama", "Qura": "Matiku", "Imayna apaykachasqayki": "Q'uñi Matiku raphi matita upyay", "Yachay sutin": "Piper aduncum", "Qura ayllun": "Piperaceae",  "Apaykachana rakin": "Raphi"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Sachamama", "Qura": "Matiku", "Imayna apaykachasqayki": "Q'uñi Matiku raphi matita upyay", "Yachay sutin": "Piper aduncum", "Qura ayllun": "Piperaceae",  "Apaykachana rakin": "Raphi"},
                      "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", "Jawekeska akin akati": "Matico pei jene", "Kirika jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Rao jaskara akati": "Pei"},  
                                }
                         }
@@ -364,11 +364,28 @@ RAPHI_SALUD = {
                 "Shipibo-konibo": "Non xara onta yakata iquike."
             },
             "Formas_de_tratamiento": {
-                              "English":{"Region": "The Andes", "Plant": "Sangre de grado", "Using": "A Greater plantain's leaves infusion to softens the stomach's inner walls, reduce acidity and regenerates damaged tissues", "Scientific_name": "Minthostachys mollis", "Botanical_family": "Lamiaceae", "Part_used": "Leaves"}, 
-                    "Español":{"Region": "Andes", "Planta": "Muña", "Uso": "Una infusión o mate caliente de hojas para calmar la garganta y aflojar el pecho.", "Nombre_científico": "Minthostachys mollis", "Familia_botánica": "Lamiaceae", "Parte_utilizada": "Hojas"},
-                     "Qichwa":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Muña", "Imayna apaykachasqayki": "Q'uñi Muña raphi matita upyay", "Yachay sutin": "Minthostachy mollis", "Qura ayllun": "Laminiaceae",  "Apaykachana rakin": "Raphi"},
-                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Matico", "Jawekeska akin akati": "Matico pei jene", "kirika jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Rao jaskara akati": "Pei"}, 
-                    "region": "General (Costa, Andes y Amazonía)",
+                       "Andes":{
+"English":{"Region": "The Andes", "Plant": "Llantén", "Using": "Llantén leaves infusion to softens the stomach's inner walls, reduce acidity and regenerates damaged tissues.", "Scientific_name": "Plantago major", "Botanical_family": "Plantaginaceae", "Part_used": "Leaves"}, 
+                    "Español":{"Region": "Andes", "Planta": "Llantén", "Uso": "Una infusión o mate de hojas suavizar las peredes del stomágo, reducir la acidez y regenerar los tejidos dañados.", "Nombre_científico": "Plantago major", "Familia_botánica": "Plantaginaceae", "Parte_utilizada": "Hojas"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Anti", "Qura": "Llantin", "Imayna apaykachasqayki": "Llantin raphi matita upyay", "Yachay sutin": "Plantago major", "Qura ayllun": "Plantaginaceae",  "Apaykachana rakin": "Raphi"},
+                     "Shipibo-Konibo":{"Mai": "Andes mai", "Rao": "Yantín", "Jawekeska akin akati": "Yantín pei jene", "Onanti jane": "Piper aduncum", "Rao kaibo": "Piperaceae", "Akinanti tsekatii": "Pei"},
+                      "Amazonía":{ 
+"English":{"Region": "The Amazon", "Plant": "Sangre de grado", "Using": " Sangre de grado(Irare) latex or reddish resin diluted in a glass lukewarm water, herbal ifusion or natural juice.", "Scientific_name": "Croton lechleri", "Botanical_family": "Euphorbiaceae", "Part_used": "Latex or reddish resin"}, 
+                    "Español":{"Region": "Amazonía", "Planta": "Sangre de grado", "Uso": "Látex o resina rojiza de sangre de grado diluido en un vaso de agua tibia, infusión o jugo natual.", "Nombre_científico": "Croton lechleri", "Familia_botánica": "Euphorbiaceae", "Parte_utilizada": "Látex o resina"},
+                     "Runasimi":{"Mama llaqtapa kaqninkuna": "Sachamama", "Qura": "Irare", "Imayna apaykachasqayki": "Irare puka llaqsan ama nishu q'uñi yakupi, matipi, utaq ruru yakupi shulluchisqata upyay", "Yachay sutin": "Croton lechleri", "Qura ayllun": "Euphorbiaceae",  "Apaykachana rakin": "Puka llaqsa"},
+                     "Shipibo-Konibo":{"Mai": "Nii", "Rao": "Irare", "Jawekeska akin akati": "Irare jimi jene joshin, jene yonon, pei jene, bimibo jeneribi meran chibanti.", "Onanti jane": "Croton lechleri", "Rao kaibo": "Euphorbiaceae", "Akinanti tsekatii": "Irare jimi"},
+                                    }
+                                }
+                            },
+           "Fiebre": {
+                  "Nombres_idiomas": {
+                "Español": "Fiebre",
+                "Inglés": "Fever",
+                "Quechua": "Ruphay unquy",
+                "Shipibo-konibo": ""
+                       
+
+ "region": "General (Costa, Andes y Amazonía)",
                     "planta": "Llantén",
                     "uso": "Agüita de hojas con ese juguito viscoso (mucílago) que protege y calma las paredes del estómago.",
                     "ficha_cientifica": {
